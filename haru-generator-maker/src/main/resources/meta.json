@@ -1,0 +1,58 @@
+{
+  "name": "acm-template-pro-generator",
+  "description": "ACM 示例模板生成器",
+  "basePackage": "com.haru",
+  "version": "1.0",
+  "author": "haru",
+  "createTime": "2023-11-22",
+  "fileConfig": {
+    "inputRootPath": "D:/file/studyfile/JavaStudyFile/haru-generator-redo1212/haru-generator-demo-projects/acm-template-pro",
+    "outputRootPath": "D:/file/studyfile/JavaStudyFile/haru-generator-redo1212/acm-template-pro",
+    "type": "dir",
+    "files": [
+      {
+        "inputPath": "src/com/haru/acm/MainTemplate.java.ftl",
+        "outputPath": "src/com/haru/acm/MainTemplate.java",
+        "type": "file",
+        "generateType": "dynamic"
+      },
+      {
+        "inputPath": ".gitignore",
+        "outputPath": ".gitignore",
+        "type": "file",
+        "generateType": "static"
+      },
+      {
+        "inputPath": "README.md",
+        "outputPath": "README.md",
+        "type": "file",
+        "generateType": "static"
+      }
+    ]
+  },
+  "modelConfig": {
+    "models": [
+      {
+        "fieldName": "loop",
+        "type": "boolean",
+        "description": "是否生成循环",
+        "defaultValue": false,
+        "abbr": "l"
+      },
+      {
+        "fieldName": "author",
+        "type": "String",
+        "description": "作者注释",
+        "defaultValue": "haru",
+        "abbr": "a"
+      },
+      {
+        "fieldName": "outputText",
+        "type": "String",
+        "description": "输出信息",
+        "defaultValue": "sum = ",
+        "abbr": "o"
+      }
+    ]
+  }
+}
