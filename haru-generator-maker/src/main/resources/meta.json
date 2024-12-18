@@ -6,8 +6,9 @@
   "author": "haru",
   "createTime": "2023-11-22",
   "fileConfig": {
-    "inputRootPath": "D:/file/studyfile/JavaStudyFile/haru-generator-redo1212/haru-generator-demo-projects/acm-template-pro",
+    "inputRootPath": ".source/acm-template-pro",
     "outputRootPath": "D:/file/studyfile/JavaStudyFile/haru-generator-redo1212/acm-template-pro",
+    "sourceRootPath": "D:/file/studyfile/JavaStudyFile/haru-generator-redo1212/haru-generator-demo-projects/acm-template-pro",
     "type": "dir",
     "files": [
       {
