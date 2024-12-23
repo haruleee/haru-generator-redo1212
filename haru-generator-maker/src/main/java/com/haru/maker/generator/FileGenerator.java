@@ -39,7 +39,6 @@ public class FileGenerator {
         //生成动态文件
         //获取模板文件路径
         String inputDynamicFilePath = projectPath + File.separator + "src/main/resources/templates/MainTemplate.java.ftl";
-
         String outputDynamicFilePath = outputPath + File.separator + "acm-template/src/com/haru/acm/MainTemplate.java";
         DynamicGenerator.doGenerate(inputDynamicFilePath,outputDynamicFilePath,dataModel);
 
